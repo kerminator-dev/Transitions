@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitionsLibrary", "TransitionsLibrary\TransitionsLibrary.csproj", "{ADDB9137-0A2F-4FEE-925E-9F476810532D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitionsTest", "TransitionsTest\TransitionsTest.csproj", "{7548E1FD-AFE6-4291-B976-DA61F5B97056}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADDB9137-0A2F-4FEE-925E-9F476810532D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDB9137-0A2F-4FEE-925E-9F476810532D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDB9137-0A2F-4FEE-925E-9F476810532D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDB9137-0A2F-4FEE-925E-9F476810532D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7548E1FD-AFE6-4291-B976-DA61F5B97056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7548E1FD-AFE6-4291-B976-DA61F5B97056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7548E1FD-AFE6-4291-B976-DA61F5B97056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7548E1FD-AFE6-4291-B976-DA61F5B97056}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8D7917F-ACB1-4588-ABEC-13B298E69DE3}
+	EndGlobalSection
+EndGlobal
