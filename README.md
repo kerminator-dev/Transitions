@@ -31,7 +31,7 @@ The elements in the callback method must be accessed via the user interface thre
 
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/code-example-2.JPG?raw=true)
 
-## Nuances
+## Nuances of usage
 
 - The main nuance is the inability of Windows Forms technology to quickly render controls, which is noticeable when using the library. At a high frame rate, the elements do not have time to be drawn.
 - You cannot call callback methods through another thread
