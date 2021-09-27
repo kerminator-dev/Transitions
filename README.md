@@ -9,16 +9,17 @@ Class library for creating transitions with an example of using the library. Cla
 ## Class Library
 
 Class Library with easing functions:
-- Quadratic
-- Cubic
-- Quartic
-- Quintic
-- Sinusoidal
-- Exponential
-- Circular
-- Elastic
-- Back
-- Bounce
+- Linear
+- Quadratic (in, out, in/out, bezier)
+- Cubic (in, out, in/out)
+- Quartic (in, out, in/out)
+- Quintic (in, out, in/out)
+- Sinusoidal (in, out, in/out)
+- Exponential (in, out, in/out)
+- Circular (in, out, in/out)
+- Elastic (in, out, in/out)
+- Back (in, out, in/out)
+- Bounce (in, out, in/out)
 
 ## Usage
 
