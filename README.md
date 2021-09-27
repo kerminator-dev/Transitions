@@ -1,7 +1,7 @@
 # Transitions
 ## Overview 
 
-Class library for creating transitions with an example of usage on Windows Forms. Library allows to create smooth transitions/animations for Windows Forms controls.
+Class library for creating transitions with an example of usage on Windows Forms. Library allows to create smooth transitions/animations for your controls.
 
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview.gif?raw=true)
 
