@@ -1,7 +1,5 @@
-﻿using TransitionsLibrary;
-using TransitionsLibrary.Functions;
-using System;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
+using TransitionsLibrary;
 using static TransitionsLibrary.Transition;
 using static TransitionsLibrary.Functions.Easing;
 
