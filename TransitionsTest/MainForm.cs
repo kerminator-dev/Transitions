@@ -36,8 +36,7 @@ namespace TransitionsTest
             }
             else
             {
-                CurrentObject.Location = new System.Drawing.Point((int)value, CurrentObject.Location.Y);
-                LocationXLabel.Text = "X: " + value;
+                BackPanel.Location = new System.Drawing.Point(CurrentObject.Location.X, (int)value);
             }
         }
 
@@ -47,16 +46,16 @@ namespace TransitionsTest
 
             if (CurrentObject != null && CurrentFuntion != null)
             {
-                SlideAnimation = new Transition
+                var slideTransitionX = new Transition
                 (
-                    startValue: CurrentObject.Location.X,
-                    endValue: e.X,
-                    duration: Convert.ToInt32(DurationUpDown.Value),
+                    startValue: 0,  // px
+                    endValue: 1000, // px
+                    duration: 1300, // ms
                     onValueChanged: OnValueChanged,
-                    easingFunction: CurrentFuntion,
-                    fps: Convert.ToInt32(FpsUpDown.Value)
+                    easingFunction: Elastic.InOut,
+                    fps: 60
                 );
-                SlideAnimation.Animate();
+                slideTransitionX.Animate();
             }
         }
 
