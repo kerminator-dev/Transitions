@@ -1,8 +1,7 @@
 ﻿using System.Windows.Forms;
-using TransitionsLibrary.Models.Functions;
-using static TransitionsLibrary.Models.Functions.Easings;
 using TransitionsLibrary.Models;
 using static TransitionsLibrary.Models.ValueTransition;
+using static TransitionsLibrary.Models.Functions.Easings;
 
 namespace TransitionsTest
 {
@@ -51,7 +50,7 @@ namespace TransitionsTest
                     endValue: e.X, 
                     duration: 1300, 
                     onValueChanged: OnValueChanged,
-                    easingFunction: Elastic.InOut,
+                    easingFunction: CurrentFuntion,
                     targetControl: CurrentObject,
                     fps: 60
                 );

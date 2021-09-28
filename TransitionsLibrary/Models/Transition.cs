@@ -36,10 +36,15 @@ namespace TransitionsLibrary.Models
 
         protected Transition(EasingFunction function, int duration, int fps, int startDelay)
         {
+            if (fps < 1)
+                throw new ArgumentException("FPS must be greater than 0!");
+            if (duration < 1)
+                throw new ArgumentException("Duration must be greater than 0!");
+
             Function = function;
-            Duration = duration;
             FPS = fps;
             StartDelay = startDelay;
+
             TransitionThread = new Thread(StartTransition);
         }
 

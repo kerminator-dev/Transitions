@@ -37,7 +37,6 @@ namespace TransitionsLibrary.Models
             TargetControl = targetControl;
         }
 
-
         public override void Start()
         {
             if (!IsActive)
