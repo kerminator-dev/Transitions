@@ -4,7 +4,6 @@
 Class library for creating transitions with an example of usage on Windows Forms. Library allows to create smooth transitions/animations for your components.
 
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview2.gif?raw=true)
-![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview.gif?raw=true)
 
 ## Class Library
 [The library](https://github.com/kerminator-dev/Transitions/blob/main/TransitionsLibrary/bin/Debug/TransitionsLibrary.dll) contains following easing functions:
