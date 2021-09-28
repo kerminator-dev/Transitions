@@ -3,8 +3,11 @@
 
 Class library for creating transitions with an example of usage on Windows Forms. Library allows to create smooth transitions/animations for your controls.
 
+### Project example with flow cards transition and notifications:
+
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview2.gif?raw=true)
 
+### Project example with visualization of different easing functions:
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview.gif?raw=true)
 
 
