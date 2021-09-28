@@ -28,7 +28,8 @@ Class Library with easing functions:
 
 ## Usage
 
-### Usage example 1 
+### Usage example 1 - horizontal transition of the control by MouseDown event
+
 Connecting namespaces:
 
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/code-example-3.png?raw=true)
