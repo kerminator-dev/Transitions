@@ -3,17 +3,11 @@
 
 Class library for creating transitions with an example of usage on Windows Forms. Library allows to create smooth transitions/animations for your controls.
 
-### Project example with flow cards transition and notifications:
-
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview2.gif?raw=true)
-
-### Project example with visualization of different easing functions:
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview.gif?raw=true)
 
-
 ## Class Library
-
-Class Library with easing functions:
+[The library](https://github.com/kerminator-dev/Transitions/blob/main/TransitionsLibrary/bin/Debug/TransitionsLibrary.dll) contains following easing functions:
 - Linear
 - Quadratic (in, out, in/out, bezier)
 - Cubic (in, out, in/out)
@@ -25,6 +19,10 @@ Class Library with easing functions:
 - Elastic (in, out, in/out)
 - Back (in, out, in/out)
 - Bounce (in, out, in/out)
+
+You can also see examples of transitions [here](https://easings.net/). Anyway, you can add a custom function via the EasingFunction delegate
+
+All transition run in a separate thread
 
 ## Usage
 
