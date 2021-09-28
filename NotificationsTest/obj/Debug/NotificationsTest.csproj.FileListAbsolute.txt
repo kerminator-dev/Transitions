@@ -1,0 +1,16 @@
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\bin\Debug\NotificationsTest.exe.config
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\bin\Debug\NotificationsTest.exe
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\bin\Debug\NotificationsTest.pdb
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\obj\Debug\NotificationsTest.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\obj\Debug\NotificationsTest.Properties.Resources.resources
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\obj\Debug\NotificationsTest.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\obj\Debug\NotificationsTest.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\obj\Debug\NotificationsTest.csproj.CopyComplete
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\obj\Debug\NotificationsTest.exe
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\obj\Debug\NotificationsTest.pdb
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\bin\Debug\TransitionsLibrary.dll
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\bin\Debug\TransitionsLibrary.pdb
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\obj\Debug\NotificationsTest.MainForm.resources
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\bin\Debug\Guna.UI.dll
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Desktop\Transitions-main\NotificationsTest\obj\Debug\NotificationsTest.NotificationForm.resources

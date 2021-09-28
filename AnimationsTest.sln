@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitionsLibrary", "Trans
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitionsTest", "TransitionsTest\TransitionsTest.csproj", "{7548E1FD-AFE6-4291-B976-DA61F5B97056}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationsTest", "NotificationsTest\NotificationsTest.csproj", "{DD577FBF-D5DA-447D-B1DB-327C9740955B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7548E1FD-AFE6-4291-B976-DA61F5B97056}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7548E1FD-AFE6-4291-B976-DA61F5B97056}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7548E1FD-AFE6-4291-B976-DA61F5B97056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD577FBF-D5DA-447D-B1DB-327C9740955B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD577FBF-D5DA-447D-B1DB-327C9740955B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD577FBF-D5DA-447D-B1DB-327C9740955B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD577FBF-D5DA-447D-B1DB-327C9740955B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

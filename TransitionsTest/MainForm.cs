@@ -1,13 +1,14 @@
 ﻿using System.Windows.Forms;
-using TransitionsLibrary;
-using static TransitionsLibrary.Transition;
-using static TransitionsLibrary.Functions.Easing;
+using TransitionsLibrary.Models.Functions;
+using static TransitionsLibrary.Models.Functions.Easings;
+using TransitionsLibrary.Models;
+using static TransitionsLibrary.Models.ValueTransition;
 
 namespace TransitionsTest
 {
     public partial class MainForm : Form
     {
-        private Transition SlideAnimation;
+        private ValueTransition SlideAnimation;
         private Panel _CurrentObject;
         private Panel CurrentObject
         {
@@ -26,7 +27,7 @@ namespace TransitionsTest
             InitializeComponent();
         }
 
-        private void OnValueChanged(float value)
+        private void OnValueChanged(float value, Control control)
         {
             if (InvokeRequired)
             {
@@ -34,7 +35,7 @@ namespace TransitionsTest
             }
             else
             {
-                BackPanel.Location = new System.Drawing.Point(CurrentObject.Location.X, (int)value);
+                control.Location = new System.Drawing.Point(control.Location.X, (int)value);
             }
         }
 
@@ -44,65 +45,66 @@ namespace TransitionsTest
 
             if (CurrentObject != null && CurrentFuntion != null)
             {
-                var slideTransitionX = new Transition
+                var slideTransitionX = new ValueTransition
                 (
                     startValue: 0,  // px
                     endValue: 1000, // px
                     duration: 1300, // ms
                     onValueChanged: OnValueChanged,
                     easingFunction: Elastic.InOut,
+                    targetControl: CurrentObject,
                     fps: 60
                 );
-                slideTransitionX.Animate();
+                slideTransitionX.Start();
             }
         }
 
         private void QuadrPanel_MouseDown(object sender, MouseEventArgs e)
         {
             CurrentObject = QuadrObject;
-            CurrentFuntion = Easing.Quadratic.InOut;
+            CurrentFuntion = Easings.Quadratic.InOut;
             StartAnimation(e);
         }
 
         private void ElasticPanel_MouseDown(object sender, MouseEventArgs e)
         {
             CurrentObject = ElasticObject;
-            CurrentFuntion = Easing.Elastic.InOut;
+            CurrentFuntion = Easings.Elastic.InOut;
             StartAnimation(e);
         }
 
         private void BouncePanel_MouseDown(object sender, MouseEventArgs e)
         {
             CurrentObject = BounceObject;
-            CurrentFuntion = Easing.Bounce.InOut;
+            CurrentFuntion = Easings.Bounce.InOut;
             StartAnimation(e);
         }
 
         private void ExpPanel_MouseDown(object sender, MouseEventArgs e)
         {
             CurrentObject = ExpObject;
-            CurrentFuntion = Easing.Exponential.InOut;
+            CurrentFuntion = Easings.Exponential.InOut;
             StartAnimation(e);
         }
 
         private void SinPanel_MouseDown(object sender, MouseEventArgs e)
         {
             CurrentObject = SinObject;
-            CurrentFuntion = Easing.Sinusoidal.InOut;
+            CurrentFuntion = Easings.Sinusoidal.InOut;
             StartAnimation(e);
         }
 
         private void CircularPanel_MouseDown(object sender, MouseEventArgs e)
         {
             CurrentObject = CircularObject;
-            CurrentFuntion = Easing.Circular.InOut;
+            CurrentFuntion = Easings.Circular.InOut;
             StartAnimation(e);
         }
 
         private void BackPanel_MouseDown(object sender, MouseEventArgs e)
         {
             CurrentObject = BackObject;
-            CurrentFuntion = Easing.Back.InOut;
+            CurrentFuntion = Easings.Back.InOut;
             StartAnimation(e);
         }
     }
