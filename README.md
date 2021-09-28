@@ -28,7 +28,8 @@ Class Library with easing functions:
 
 ## Usage
 
-Namespace connections:
+### Usage example 1 
+Connecting namespaces:
 
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/code-example-3.png?raw=true)
 
