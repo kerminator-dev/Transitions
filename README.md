@@ -43,8 +43,8 @@ You can also see examples of transitions [here](https://easings.net/). Anyway, y
 - targetControl   (Control) - the control that requires a transition (example - targetControl: panel1). The specified control will be available in the callback method as Control control object.
 
 #### Optional parameters:
-- fps:            (int) - frames per second. Default value: 40;
-- startDelay:     (int) - Thread sleep delay in milliseconds before transition start. Default value: 0.
+- fps:            (int) - frames per second. Default value: 40. fps > 0;
+- startDelay:     (int) - Thread sleep delay in milliseconds before transition start. Default value: 0. srtartDelay > 0.
 
 #### 3. The elements in the callback method must be accessed via the user interface thread! Example of a callback method:
 
