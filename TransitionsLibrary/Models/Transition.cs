@@ -44,7 +44,7 @@ namespace TransitionsLibrary.Models
             Function = function;
             FPS = fps;
             StartDelay = startDelay;
-
+            Duration = duration;
             TransitionThread = new Thread(StartTransition);
         }
 

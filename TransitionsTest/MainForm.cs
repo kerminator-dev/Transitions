@@ -2,6 +2,7 @@
 using TransitionsLibrary.Models;
 using static TransitionsLibrary.Models.ValueTransition;
 using static TransitionsLibrary.Models.Functions.Easings;
+using TransitionsLibrary.Models.Functions;
 
 namespace TransitionsTest
 {

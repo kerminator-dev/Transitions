@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\AnimationsTest\SimpleConsoleExample\bin\Debug\SimpleConsoleExample.exe.config
+C:\Users\Admin\source\repos\AnimationsTest\SimpleConsoleExample\bin\Debug\SimpleConsoleExample.exe
+C:\Users\Admin\source\repos\AnimationsTest\SimpleConsoleExample\bin\Debug\SimpleConsoleExample.pdb
+C:\Users\Admin\source\repos\AnimationsTest\SimpleConsoleExample\bin\Debug\TransitionsLibrary.dll
+C:\Users\Admin\source\repos\AnimationsTest\SimpleConsoleExample\bin\Debug\TransitionsLibrary.pdb
+C:\Users\Admin\source\repos\AnimationsTest\SimpleConsoleExample\obj\Debug\SimpleConsoleExample.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\AnimationsTest\SimpleConsoleExample\obj\Debug\SimpleConsoleExample.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\AnimationsTest\SimpleConsoleExample\obj\Debug\SimpleConsoleExample.csproj.CopyComplete
+C:\Users\Admin\source\repos\AnimationsTest\SimpleConsoleExample\obj\Debug\SimpleConsoleExample.exe
+C:\Users\Admin\source\repos\AnimationsTest\SimpleConsoleExample\obj\Debug\SimpleConsoleExample.pdb
