@@ -9,7 +9,7 @@ namespace TransitionsLibrary.Models
     /// Universal transition type
     /// Used to change one property of an object
     /// </summary>
-    public class ValueTransition : Transition, ITransition
+    public class ValueTransition : Transition
     {
         public new float Value
         {

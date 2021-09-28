@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitionsLibrary", "TransitionsLibrary\TransitionsLibrary.csproj", "{ADDB9137-0A2F-4FEE-925E-9F476810532D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitionsTest", "TransitionsTest\TransitionsTest.csproj", "{7548E1FD-AFE6-4291-B976-DA61F5B97056}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitionsExample", "TransitionsTest\TransitionsExample.csproj", "{7548E1FD-AFE6-4291-B976-DA61F5B97056}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationsTest", "NotificationsTest\NotificationsTest.csproj", "{DD577FBF-D5DA-447D-B1DB-327C9740955B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitionsNotificationsExample", "NotificationsTest\TransitionsNotificationsExample.csproj", "{DD577FBF-D5DA-447D-B1DB-327C9740955B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

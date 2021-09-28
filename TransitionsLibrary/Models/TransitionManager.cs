@@ -39,6 +39,7 @@ namespace TransitionsLibrary.Models
                 return false;
             }
         }
+
         public TransitionManager(List<Transition> transitionsList, int startDelay = 0)
         {
             Transitions = transitionsList;

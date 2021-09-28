@@ -8,7 +8,7 @@ namespace TransitionsTest
 {
     public partial class MainForm : Form
     {
-        private ValueTransition SlideAnimation;
+        private ValueTransition SlideTransition;
         private Panel _CurrentObject;
         private Panel CurrentObject
         {
@@ -31,31 +31,31 @@ namespace TransitionsTest
         {
             if (InvokeRequired)
             {
-                Invoke(new OnValueChangedDelegate(OnValueChanged), new object[] { value });
+                Invoke(new OnValueChangedDelegate(OnValueChanged), new object[] { value, control });
             }
             else
             {
-                control.Location = new System.Drawing.Point(control.Location.X, (int)value);
+                control.Left = (int)value;
             }
         }
 
-        private void StartAnimation(MouseEventArgs e)
+        private void StartTransition(MouseEventArgs e)
         {
-            if (SlideAnimation != null && SlideAnimation.IsActive) return;
+            if (SlideTransition != null && SlideTransition.IsActive) return;
 
             if (CurrentObject != null && CurrentFuntion != null)
             {
-                var slideTransitionX = new ValueTransition
+                SlideTransition = new ValueTransition
                 (
-                    startValue: 0,  // px
-                    endValue: 1000, // px
-                    duration: 1300, // ms
+                    startValue: CurrentObject.Location.X,  
+                    endValue: e.X, 
+                    duration: 1300, 
                     onValueChanged: OnValueChanged,
                     easingFunction: Elastic.InOut,
                     targetControl: CurrentObject,
                     fps: 60
                 );
-                slideTransitionX.Start();
+                SlideTransition.Start(); 
             }
         }
 
@@ -63,49 +63,49 @@ namespace TransitionsTest
         {
             CurrentObject = QuadrObject;
             CurrentFuntion = Easings.Quadratic.InOut;
-            StartAnimation(e);
+            StartTransition(e);
         }
 
         private void ElasticPanel_MouseDown(object sender, MouseEventArgs e)
         {
             CurrentObject = ElasticObject;
             CurrentFuntion = Easings.Elastic.InOut;
-            StartAnimation(e);
+            StartTransition(e);
         }
 
         private void BouncePanel_MouseDown(object sender, MouseEventArgs e)
         {
             CurrentObject = BounceObject;
             CurrentFuntion = Easings.Bounce.InOut;
-            StartAnimation(e);
+            StartTransition(e);
         }
 
         private void ExpPanel_MouseDown(object sender, MouseEventArgs e)
         {
             CurrentObject = ExpObject;
             CurrentFuntion = Easings.Exponential.InOut;
-            StartAnimation(e);
+            StartTransition(e);
         }
 
         private void SinPanel_MouseDown(object sender, MouseEventArgs e)
         {
             CurrentObject = SinObject;
             CurrentFuntion = Easings.Sinusoidal.InOut;
-            StartAnimation(e);
+            StartTransition(e);
         }
 
         private void CircularPanel_MouseDown(object sender, MouseEventArgs e)
         {
             CurrentObject = CircularObject;
             CurrentFuntion = Easings.Circular.InOut;
-            StartAnimation(e);
+            StartTransition(e);
         }
 
         private void BackPanel_MouseDown(object sender, MouseEventArgs e)
         {
             CurrentObject = BackObject;
             CurrentFuntion = Easings.Back.InOut;
-            StartAnimation(e);
+            StartTransition(e);
         }
     }
 }

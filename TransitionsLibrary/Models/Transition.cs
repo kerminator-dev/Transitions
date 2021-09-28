@@ -7,7 +7,7 @@ namespace TransitionsLibrary.Models
     /// <summary>
     /// Abstraction
     /// </summary>
-    public abstract class Transition : ITransition
+    public abstract class Transition
     {
         protected bool _IsActive = false;
         public bool IsActive
@@ -16,16 +16,6 @@ namespace TransitionsLibrary.Models
             protected set
             {
                 _IsActive = value;
-
-                //if (value)
-                //{
-                //    if (OnTransitionEnd != null) OnTransitionEnd();
-                //}
-                //else
-                //{
-                //    if (OnTransitionStart != null) OnTransitionStart();
-                //    IsComplete = true;
-                //}
             }
         }
         protected float _Value = 0;
