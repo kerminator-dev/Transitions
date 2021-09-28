@@ -1,7 +1,7 @@
 # Transitions
 ## Overview 
 
-Class library for creating transitions with an example of usage on Windows Forms. Library allows to create smooth transitions/animations for your controls.
+Class library for creating transitions with an example of usage on Windows Forms. Library allows to create smooth transitions/animations for your components.
 
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview2.gif?raw=true)
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview.gif?raw=true)
@@ -68,4 +68,4 @@ The elements in the callback method must be accessed via the user interface thre
 
 - The main nuance is the inability of Windows Forms technology to quickly render controls, which is noticeable when using the library. At a high frame rate, the elements do not have time to be drawn.
 - Transition processing is based on CPU only! For a better experience, the transitions should be handled by the GPU.
-- You cannot work with controls through another thread
+- You cannot work with controls through another thread. Use InvokeRequired property and Invoke method to access control properties.
