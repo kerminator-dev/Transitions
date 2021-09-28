@@ -54,8 +54,17 @@ The elements in the callback method must be accessed via the user interface thre
 
 ## Examples
 
-### [Usage example 1 - horizontal transition of the control by MouseDown event](https://github.com/kerminator-dev/Transitions/tree/main/TransitionsTest)
-### [Usage example 2 - horizontal transition of the cards and pop-up notifications](https://github.com/kerminator-dev/Transitions/tree/main/TransitionsTest)
+### [Usage example 1 - simple example in console application](https://github.com/kerminator-dev/Transitions/tree/main/SimpleConsoleExample)
+
+![alt ext](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview3.gif?raw=true)
+
+### [Usage example 2 - horizontal transition of the control by MouseDown event](https://github.com/kerminator-dev/Transitions/tree/main/TransitionsTest)
+
+![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview.gif?raw=true)
+
+### [Usage example 3 - horizontal transition of the cards and pop-up notifications](https://github.com/kerminator-dev/Transitions/tree/main/NotificationsTest)
+
+![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview2.gif?raw=true)
 
 ## Nuances of usage
 
