@@ -43,7 +43,7 @@ You can also see examples of transitions [here](https://easings.net/). Anyway, y
 
 #### Optional parameters:
 - fps:            (int) - frames per second. Default value: 40. fps > 0;
-- startDelay:     (int) - Thread sleep delay in milliseconds before transition start. Default value: 0. srtartDelay > 0.
+- startDelay:     (int) - Thread sleep delay in milliseconds before transition start. Default value: 0. startDelay > 0.
 
 #### 3. The elements in the callback method must be accessed via the user interface thread! Example of a callback method:
 
@@ -52,7 +52,7 @@ You can also see examples of transitions [here](https://easings.net/). Anyway, y
 ### Extended usage example with Transition Manager
 
 Transition Manager allows you to work with multiple animations simultaneously in multiple threads. 
-Extended usage example with Transition Manager you can see [here]((https://github.com/kerminator-dev/Transitions/tree/main/NotificationsTest)
+Extended usage example with Transition Manager you can see [here](https://github.com/kerminator-dev/Transitions/tree/main/NotificationsTest)
 
 ## Examples
 
