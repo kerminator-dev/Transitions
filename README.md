@@ -23,7 +23,7 @@ You can also see examples of transitions [here](https://easings.net/). Anyway, y
 
 ## Usage
 
-### Simple usage [code example](https://github.com/kerminator-dev/Transitions/blob/main/ConsoleTest/Program.cs)
+### Simple usage [code example](https://github.com/kerminator-dev/Transitions/blob/main/SimpleConsoleExample/Program.cs)
 
 #### 1. Connecting namespaces:
 
