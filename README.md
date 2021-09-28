@@ -1,15 +1,12 @@
 # Transitions
 ## Overview 
 
-Class library for creating transitions with an example of usage on Windows Forms. Library allows to create smooth transitions/animations for your controls.
+Class library for creating transitions with an example of usage on Windows Forms. Library allows to create smooth transitions/animations for your components.
 
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview2.gif?raw=true)
-![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview.gif?raw=true)
-
 
 ## Class Library
-
-Class Library with easing functions:
+[The library](https://github.com/kerminator-dev/Transitions/blob/main/TransitionsLibrary/bin/Debug/TransitionsLibrary.dll) contains following easing functions:
 - Linear
 - Quadratic (in, out, in/out, bezier)
 - Cubic (in, out, in/out)
@@ -22,13 +19,17 @@ Class Library with easing functions:
 - Back (in, out, in/out)
 - Bounce (in, out, in/out)
 
+You can also see examples of transitions [here](https://easings.net/). Anyway, you can add a custom function via the EasingFunction delegate. All transitions run in a separate thread
+
 ## Usage
 
-Connecting namespaces:
+### Simple usage [code example](https://github.com/kerminator-dev/Transitions/blob/main/SimpleConsoleExample/Program.cs)
+
+#### 1. Connecting namespaces:
 
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/code-example-3.png?raw=true)
 
-An example of creating and running a transition:
+#### 2. An example of creating and running a transition:
 
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/code-example-1.JPG?raw=true)
 
@@ -40,21 +41,35 @@ An example of creating and running a transition:
 - easingFunction  (EasingFunction) - TransitionsLibrary.Models.Functions.Easings function used to transition (example - easingFunction: Easings.Back.InOut);
 - targetControl   (Control) - the control that requires a transition (example - targetControl: panel1). The specified control will be available in the callback method as Control control object.
 
-##### Optional parameters:
-- fps:            (int) - frames per second. Default value: 40;
-- startDelay:     (int) - Thread sleep delay in milliseconds before transition start. Default value: 0.
+#### Optional parameters:
+- fps:            (int) - frames per second. Default value: 40. fps > 0;
+- startDelay:     (int) - Thread sleep delay in milliseconds before transition start. Default value: 0. srtartDelay > 0.
 
-The elements in the callback method must be accessed via the user interface thread! Example of a callback method:
+#### 3. The elements in the callback method must be accessed via the user interface thread! Example of a callback method:
 
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/code-example-2.JPG?raw=true)
 
+### Extended usage example with Transition Manager
+
+Transition Manager allows you to work with multiple animations simultaneously in multiple threads. 
+Extended usage example with Transition Manager you can see [here]((https://github.com/kerminator-dev/Transitions/tree/main/NotificationsTest)
+
 ## Examples
 
-### [Usage example 1 - horizontal transition of the control by MouseDown event](https://github.com/kerminator-dev/Transitions/tree/main/TransitionsTest)
-### [Usage example 2 - horizontal transition of the cards and pop-up notifications](https://github.com/kerminator-dev/Transitions/tree/main/TransitionsTest)
+### [Usage example 1 - simple example in console application](https://github.com/kerminator-dev/Transitions/tree/main/SimpleConsoleExample)
+
+![alt ext](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview3.gif?raw=true)
+
+### [Usage example 2 - horizontal transition of the control by MouseDown event](https://github.com/kerminator-dev/Transitions/tree/main/TransitionsTest)
+
+![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview.gif?raw=true)
+
+### [Usage example 3 - horizontal transition of the cards and pop-up notifications](https://github.com/kerminator-dev/Transitions/tree/main/NotificationsTest)
+
+![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview2.gif?raw=true)
 
 ## Nuances of usage
 
 - The main nuance is the inability of Windows Forms technology to quickly render controls, which is noticeable when using the library. At a high frame rate, the elements do not have time to be drawn.
 - Transition processing is based on CPU only! For a better experience, the transitions should be handled by the GPU.
-- You cannot work with controls through another thread
+- You cannot work with controls through another thread. Use InvokeRequired property and Invoke method to access control properties.
