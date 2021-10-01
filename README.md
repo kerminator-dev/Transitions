@@ -23,7 +23,7 @@ You can also see examples of transitions [here](https://easings.net/). Anyway, y
 
 ## Usage
 
-### Simple usage [code example](https://github.com/kerminator-dev/Transitions/blob/main/SimpleConsoleExample/Program.cs)
+### Simple usage [code example](https://github.com/kerminator-dev/Transitions/blob/main/Examples/SimpleConsoleExample/Program.cs)
 
 #### 1. Connecting namespaces:
 
@@ -56,15 +56,15 @@ Extended usage example with Transition Manager you can see [here](https://github
 
 ## Examples
 
-### [Usage example 1 - simple example in console application](https://github.com/kerminator-dev/Transitions/tree/main/SimpleConsoleExample)
+### [Usage example 1 - simple example in console application](https://github.com/kerminator-dev/Transitions/tree/main/Examples/SimpleConsoleExample)
 
 ![alt ext](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview3.gif?raw=true)
 
-### [Usage example 2 - horizontal transition of the control by MouseDown event](https://github.com/kerminator-dev/Transitions/tree/main/TransitionsTest)
+### [Usage example 2 - horizontal transition of the control by MouseDown event](https://github.com/kerminator-dev/Transitions/tree/main/Examples/TransitionsTest)
 
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview.gif?raw=true)
 
-### [Usage example 3 - horizontal transition of the cards and pop-up notifications](https://github.com/kerminator-dev/Transitions/tree/main/NotificationsTest)
+### [Usage example 3 - horizontal transition of the cards and pop-up notifications](https://github.com/kerminator-dev/Transitions/tree/main/Examples/NotificationsTest)
 
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview2.gif?raw=true)
 

@@ -1,12 +1,12 @@
 ﻿using System;
-using TransitionsLibrary.Models.TransitionTypes;
+using TransitionsLibrary;
 using static TransitionsLibrary.Models.Functions.Easings;
 
 namespace SimpleConsoleExample
 {
     class Program
     {
-        static ControlValueTransition Transition;
+        static TransitionTypes.ValueTransition Transition;
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
