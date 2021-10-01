@@ -68,6 +68,10 @@ Extended usage example with Transition Manager you can see [here](https://github
 
 ![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview2.gif?raw=true)
 
+### [Usage example 4 - color transition](https://github.com/kerminator-dev/Transitions/tree/main/Examples/ColorTransitionExample)
+
+![alt text](https://github.com/kerminator-dev/Transitions/blob/main/Images/preview4.gif?raw=true)
+
 ## Nuances of usage
 
 - The main nuance is the inability of Windows Forms technology to quickly render controls, which is noticeable when using the library. At a high frame rate, the elements do not have time to be drawn.
