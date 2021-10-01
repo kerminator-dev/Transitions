@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
+using TransitionsLibrary.Models.TransitionTypes;
 
 namespace TransitionsLibrary.Models
 {
     public class TransitionManager
     {
-        public List<Transition> Transitions { get; private set; }
+        public List<TransitionType> Transitions { get; private set; }
         public int StartDelay { get; private set; }
         private Action _OnTransitionsEnds;
         public Action OnTransitionsEnds
@@ -40,16 +41,16 @@ namespace TransitionsLibrary.Models
             }
         }
 
-        public TransitionManager(List<Transition> transitionsList, int startDelay = 0)
+        public TransitionManager(List<TransitionType> transitionsList, int startDelay = 0)
         {
-            Transitions = transitionsList;
+            Transitions = new List<TransitionType>(transitionsList);
             StartDelay = startDelay;
         }
 
         public TransitionManager(int startDelay = 0)
         {
             StartDelay = startDelay;
-            Transitions = new List<Transition>();
+            Transitions = new List<TransitionType>();
         }
 
         public void Start()
@@ -69,8 +70,7 @@ namespace TransitionsLibrary.Models
         {
             if (OnTransitionsEnds != null)
             {
-                int complete = Transitions.Where(i => i.IsComplete).Count();
-                if (complete == Transitions.Count)
+                if (Transitions.Where(i => i.IsComplete).Count() == Transitions.Count)
                 {
                     OnTransitionsEnds();
                 }

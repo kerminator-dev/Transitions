@@ -1,0 +1,16 @@
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\obj\Debug\NotificationsExample.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\obj\Debug\NotificationsTest.MainForm.resources
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\obj\Debug\NotificationsTest.NotificationForm.resources
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\obj\Debug\NotificationsExample.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\obj\Debug\NotificationsExample.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\bin\Debug\Guna.UI.dll
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\bin\Debug\TransitionsLibrary.dll
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\bin\Debug\TransitionsLibrary.pdb
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\obj\Debug\NotificationsExample.csproj.CopyComplete
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\bin\Debug\NotificationsTransitionExample.exe.config
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\bin\Debug\NotificationsTransitionExample.exe
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\bin\Debug\NotificationsTransitionExample.pdb
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\obj\Debug\NotificationsTransitionExample.Properties.Resources.resources
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\obj\Debug\NotificationsTransitionExample.exe
+C:\Users\Admin\source\repos\AnimationsTest\NotificationsTest\obj\Debug\NotificationsTransitionExample.pdb

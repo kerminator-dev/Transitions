@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\AnimationsTest\ColorTransitionExample\bin\Debug\ColorTransitionExample.exe.config
+C:\Users\Admin\source\repos\AnimationsTest\ColorTransitionExample\bin\Debug\ColorTransitionExample.exe
+C:\Users\Admin\source\repos\AnimationsTest\ColorTransitionExample\bin\Debug\ColorTransitionExample.pdb
+C:\Users\Admin\source\repos\AnimationsTest\ColorTransitionExample\bin\Debug\TransitionsLibrary.dll
+C:\Users\Admin\source\repos\AnimationsTest\ColorTransitionExample\bin\Debug\TransitionsLibrary.pdb
+C:\Users\Admin\source\repos\AnimationsTest\ColorTransitionExample\obj\Debug\ColorTransitionExample.Properties.Resources.resources
+C:\Users\Admin\source\repos\AnimationsTest\ColorTransitionExample\obj\Debug\ColorTransitionExample.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\AnimationsTest\ColorTransitionExample\obj\Debug\ColorTransitionExample.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\AnimationsTest\ColorTransitionExample\obj\Debug\ColorTransitionExample.csproj.CopyComplete
+C:\Users\Admin\source\repos\AnimationsTest\ColorTransitionExample\obj\Debug\ColorTransitionExample.exe
+C:\Users\Admin\source\repos\AnimationsTest\ColorTransitionExample\obj\Debug\ColorTransitionExample.pdb
+C:\Users\Admin\source\repos\AnimationsTest\ColorTransitionExample\obj\Debug\ColorTransitionExample.MainForm.resources

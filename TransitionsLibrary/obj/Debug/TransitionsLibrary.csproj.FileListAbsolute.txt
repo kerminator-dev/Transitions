@@ -1,6 +1,5 @@
 C:\Users\Admin\source\repos\AnimationsTest\TransitionsLibrary\bin\Debug\TransitionsLibrary.dll
 C:\Users\Admin\source\repos\AnimationsTest\TransitionsLibrary\bin\Debug\TransitionsLibrary.pdb
-C:\Users\Admin\source\repos\AnimationsTest\TransitionsLibrary\obj\Debug\TransitionsLibrary.csprojAssemblyReference.cache
 C:\Users\Admin\source\repos\AnimationsTest\TransitionsLibrary\obj\Debug\TransitionsLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\AnimationsTest\TransitionsLibrary\obj\Debug\TransitionsLibrary.dll
 C:\Users\Admin\source\repos\AnimationsTest\TransitionsLibrary\obj\Debug\TransitionsLibrary.pdb
